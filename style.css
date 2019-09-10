@@ -3,6 +3,14 @@ html, body{
   padding: 0;
 }
 
+img{
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
 .header{
   background-color: #33ccff;
   border-bottom: 20px solid rgb(51, 212, 230);
@@ -63,25 +71,48 @@ a {
 	margin-top: 10px;
 }
 
-.img1{
-  background-image: url("https://cdn.britannica.com/30/154530-050-3B360465/Antonio-Vivaldi-violin.jpg");
-}
-
-.img2{
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/250px-Johann_Sebastian_Bach.jpg");
-}
-
-.img3{
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f9/Claude_Debussy_ca_1908%2C_foto_av_F%C3%A9lix_Nadar.jpg");
-}
-
 .composers .composer{
   background-size: 100%;
   display: inline-block;
   width: 33%;
-  height: 300px;
   float: left;
   margin: 0;
   text-align: center; 
   color: white;
+  padding: 10px;
+}
+
+.composer figure{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.composer p{
+  color: black;
+}
+
+.tabela{
+ /* width: 500px;
+  height: 500px;*/
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.tabela td, tr{
+  padding: 5px 15px;
+  border: 2px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: arial;
+}
+
+tr:nth-child(even) {
+  background-color: #ddddddd;
+}
+
+.tabelas{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
