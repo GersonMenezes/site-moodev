@@ -3,11 +3,17 @@ html, body{
   padding: 0;
 }
 
-.container{
-
+.header{
   background-color: #33ccff;
   border-bottom: 20px solid rgb(51, 212, 230);
 }
+
+.container{
+  margin: 0 auto;
+  overflow: hidden; 
+  max-width: 1024px;
+}
+
 .container h1{
 	margin-left: 20px;
 }
@@ -28,13 +34,6 @@ html, body{
   margin: 10px;
 }
 
-.header{
-  max-width: 1024px;
-  margin: 0 auto;
-  overflow: hidden; 
-
-}
-
 li {
   list-style: none;
 }
@@ -49,9 +48,6 @@ a {
 }
 
 .sound{
-	margin: 0 auto;
-  overflow: hidden; 
-	max-width: 1024px;
 	background-image: url(./imagens/editada2.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -67,3 +63,25 @@ a {
 	margin-top: 10px;
 }
 
+.img1{
+  background-image: url("https://cdn.britannica.com/30/154530-050-3B360465/Antonio-Vivaldi-violin.jpg");
+}
+
+.img2{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/250px-Johann_Sebastian_Bach.jpg");
+}
+
+.img3{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f9/Claude_Debussy_ca_1908%2C_foto_av_F%C3%A9lix_Nadar.jpg");
+}
+
+.composers .composer{
+  background-size: 100%;
+  display: inline-block;
+  width: 33%;
+  height: 300px;
+  float: left;
+  margin: 0;
+  text-align: center; 
+  color: white;
+}
