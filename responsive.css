@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px){
+	.composers .composer{
+		display: block;
+		width: 100%;
+		float: none;
+		/*margin: 20px;*/
+	}
+	.composers{
+		height: auto;
+	}
+	.sound{
+		background-size: cover; /*Todo o background vai se ajustando com o tamanho cobrindo todo o fundo*/
+	}
+}
